@@ -143,7 +143,6 @@
 // for(let i = 1 ; i<=100 ; i += 3 ){console.log(i)}
 // in so chinh phuong
 // for(let i = 1 ; i<=10 ; i++ ){console.log(i * i)}
-
 function insochan(){
     for(let i = 0 ; i<=100 ; i++ ){
         if(i % 2 == 0){
