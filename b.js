@@ -39,13 +39,15 @@ function insochinhphuong(){
 // insochia3du1();
 // insochinhphuong()
 
-// function inso(sobichia ,sodu){
-//     for(let i = 0 ; i<=100 ; i++ ){
-//         const dk = i % sobichia == sodu;
-//     }
-// }
-// inso(3,1);
-// insochan();
-// insole()
-// insochia3du1();
-insochinhphuong();
+function inso(fn){
+    for(let i = 0 ; i<=100 ; i++ ){
+        const dk = fn(i );
+        if(dk) console.log(i);
+    }
+}
+    // inso(3,1);
+        // insochan();
+        // insole()
+        // insochia3du1();
+    // insochinhphuong();
+inso(i => Math.sqrt(i) % 1 == 0);
