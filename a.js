@@ -150,6 +150,20 @@ function insochan(){
         }
     }
 }
-insochan();
+// insochan();
 
 
+// function show(){
+//     var a = 10;
+// }
+// console.log(a);
+
+// var a = console.log;
+// console.log(typeof(a));
+
+// var a = 10;
+// var b = "10";
+// console.log(a - b);
+// if(a === b){
+//     console.log("a bang b");
+// }
